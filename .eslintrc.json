@@ -1,0 +1,28 @@
+{
+	"env": {
+		"es2021": true
+	},
+	"extends": ["standard", "prettier"],
+	"plugins": ["prefer-arrow-functions", "autofix"],
+	"rules": {
+		// JS
+		"default-case": "off",
+		"curly": ["error", "all"],
+		"no-case-declarations": "error",
+
+		// eslint-plugin-autofix
+		"autofix/no-unused-vars": "error",
+		"autofix/arrow-body-style": ["error", "always"],
+
+		// eslint-plugin-prefer-arrow-functions
+		"prefer-arrow-functions/prefer-arrow-functions": [
+			"error",
+			{
+				"classPropertiesAllowed": false,
+				"disallowPrototype": false,
+				"returnStyle": "unchanged",
+				"singleReturnOnly": false
+			}
+		]
+	}
+}

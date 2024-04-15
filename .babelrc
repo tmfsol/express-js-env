@@ -1,6 +1,17 @@
 {
 	"presets": [["@babel/preset-env"]],
 	"plugins": [
+		// Alias import
+		[
+			"module-resolver",
+			{
+				"alias": {
+					"~": "./src"
+				}
+			}
+		],
+
+		// JS ES6 environment async-await synctax
 		[
 			"@babel/plugin-transform-runtime",
 			{
