@@ -6,3 +6,7 @@ dist
 
 # macos
 .DS_store
+
+# yarn
+*.log
+yarn.lock
