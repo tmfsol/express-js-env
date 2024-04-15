@@ -1,0 +1,12 @@
+{
+	"name": "express-js-env",
+	"version": "1.0.0",
+	"main": "./src/main.js",
+	"license": "MIT",
+	"engines": {
+		"node": "v20.11.0",
+		"npm": "please-use-yarn",
+		"pnpm": "please-use-yarn",
+		"yarn": ">= v1.22.19"
+	}
+}
